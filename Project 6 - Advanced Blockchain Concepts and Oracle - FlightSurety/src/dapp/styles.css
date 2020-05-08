@@ -1,0 +1,98 @@
+body, main, section, article, nav, footer, header, button, input, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    color: white;
+    background-image: url('./flight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-origin: border-box;
+}
+
+header {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section {
+    margin: 2rem 1rem;
+    padding: 1rem 2rem;
+    background-color: rgba(5, 1, 1, 0.5)
+}
+
+section h1 {
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    margin-top: 1rem;
+   
+}
+
+section div {
+    padding: 1rem 0;
+}
+
+button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    font-size: inherit;
+    cursor: pointer;
+    border: none;
+
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 12px 5px;
+    margin: 10px 0;
+    margin-bottom: 12px;
+}
+
+select {
+    display: block;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: inherit;
+}
+
+span {
+    font-weight: bold;
+}
+
+.operational {
+    color: lawngreen;
+}
+
+.notOperational {
+    color: red;
+}
+.pattern {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.lastUpdate {
+    display: block;
+    font-size: 0.8rem;
+    font-style: italic;
+}
