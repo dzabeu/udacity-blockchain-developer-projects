@@ -1,1 +1,1 @@
-# Projects developed in the Blockchain Developer course - Udacity 
+# Projects developed to Blockchain Developer course - Udacity 
